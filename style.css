@@ -1,0 +1,140 @@
+/* /* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; /* Fundo lilás claro */
+    color: #4a148c; /* Texto lilás escuro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Formulário */
+.form {
+    background-color: #e1bee7; /* Fundo lilás médio */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-header h1 {
+    color: #4a148c; /* Título lilás escuro */
+}
+
+.input-group .input-box,
+.gender-inputs {
+    margin-bottom: 15px;
+}
+
+.input-box label,
+.gender-inputs h6 {
+    font-weight: bold;
+    color: #6a1b9a; /* Texto lilás */
+}
+
+.input-box input[type="text"],
+.input-box input[type="email"],
+.input-box input[type="tel"],
+.input-box input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ab47bc;
+    border-radius: 4px;
+    background-color: #f3e5f5;
+    color: #4a148c;
+}
+
+.input-box input[type="text"]::placeholder,
+.input-box input[type="email"]::placeholder,
+.input-box input[type="tel"]::placeholder,
+.input-box input[type="password"]::placeholder {
+    color: #9c27b0;
+}
+
+.gender-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.gender-group label {
+    color: #4a148c;
+}
+
+/* Botões */
+button {
+    background-color: #ab47bc; /* Botão lilás escuro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #8e24aa; /* Botão lilás mais escuro */
+}
+
+/* Tabela de Usuários */
+.user-list {
+    max-width: 600px;
+    width: 100%;
+}
+
+.user-list h2 {
+    color: #4a148c;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #e1bee7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    color: #4a148c;
+}
+
+table th {
+    background-color: #d1c4e9;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f3e5f5;
+}
+
+table tr:hover {
+    background-color: #ce93d8;
+}
+
+table button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+table button:hover {
+    background-color: #8e24aa;
+}
